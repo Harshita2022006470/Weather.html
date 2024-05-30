@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+</head>
+<body>
+    <h1>Find Temperature</h1>
+    <form id="weatherForm">
+        <label for="cityName">Enter City Name:</label>
+        <input type="text" id="cityName" name="cityName" required>
+        <button type="submit">Get Temperature</button>
+    </form>
+
+    <div id="weatherInfo">
+        <h2>City: <span id="city"></span></h2>
+        <p>Temperature: <span id="temperature"></span></p>
+        <p>Weather: <span id="weather"></span></p>
+    </div>
+
+    <script src="weather.js"></script>
+</body>
+</html>
